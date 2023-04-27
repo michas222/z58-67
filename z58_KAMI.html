@@ -1,0 +1,94 @@
+<html>
+ <head>
+    <meta charset="utf-8">
+    <style>
+h1{
+font-family:Arial;
+}
+    </style>
+ </head>
+<body>
+   
+   <h2>  1)Co to są pseudoklasy? <br> </h2>
+
+<p>CSS przewiduje kilka <u>ściśle określonych klas</u> pozwalających na formatowanie niektórych <br>
+elementów dokumentu są to <b>Pseudoklasy</b>. <br></p>
+
+   <h2> 2)Uwaga dotycząca dwukropka : <br> </h2>
+
+   <p>Szalenie istotnym elementem w tej konstrukcji jest dwukropek występujący pomiędzy <br>
+      selektorem a nazwą klasy.  <br>
+   </p>
+   <h2> 3)Tabela (wykonana w htmlu) opisującą pseudoklasy. <br> </h2>
+   <TABLE border>
+    <TR><TD><b>A:link,</b></TD> <TD>odpowiada za wygląd hiperłącza, jeżeli nie zostało ono jeszcze
+odwiedzone.</TD></TR>
+<TR><TD><b>A:visited,</b></TD> <TD>odpowiada za formatowanie hiperłącza już odwiedzonego.</TD></TR>
+<TR><TD><b>A:hover,</b></TD> <TD>zmiany pewnych elementów po najechaniu na nie urządzeniem
+wskazującym (np. myszą), np. odsyłacz, nad którym zatrzymano kusor
+lub element blokowy DIV.</TD></TR>
+<TR><TD><b>A:active,</b></TD> <TD>pozwala nadać dowolne formatowanie elementowi po nakierowaniu na
+niego wskaźnika myszy i wciśnięciu przycisku, ale przed jego
+zwolnieniem (odsyłacz aktywnykliknięty). </TD></TR>
+<TR><TD><b>A:focus,</b></TD> <TD>jeżeli chcemy, by właśnie wyświetlany odsyłacz z menu był
+formatowany innym kolorem. Odsyłacz posiadający tzw fokuszaznaczony przy poruszaniu się po dokumencie przy pomocy klawisza tabulacji: naciśnięcie w tym momencie klawisza ENTER spowoduje taką
+reakcję przeglądarki, jakby dany odsyłacz został kliknięty</TD></TR>
+    <TR><TD><b>:lang</b></TD> <TD>formatowanie wielojęzykowych dokumentów</TD></TR>
+    <TR><TD><b>:first-child</b></TD> <TD>umożliwia określenie formatowania dla pierwszego dziecka wybranego
+elementu.</TD></TR>
+</TABLE>
+   <h2> 4)Zastosowanie pseudoklasy :active <br> </h2>
+   <p>
+     <b><u>Zastosowanie pseudoklasy :active</u></b> <br>
+      1)można używać jako uzupełnienia definicji odnośników <br>
+      2)jako elementu poprawiającego czytelność formularzy. <br>
+   </p>
+   <h2>5)Przykłady (trzy) kodów definiowania pseudoklas (wraz z tematem)  <br></h2>
+   <p> 
+  A:link <br>
+  { <br>
+ color:red;<br>
+ }<br>
+A:visited<br>
+ {<br>
+ color:green;<br>
+ }
+</p>
+-----------------------------------------------------------------------------------
+
+<p>
+A /* Definicja odsyłacza podstawowego*/ <br>
+ { <br>
+ font-size:12pt; <br>
+ text-decoration:none; <br>
+ } <br>
+A:link <br>
+ { <br>
+ color:navy; <br>
+ } <br>
+A:visited <br>
+ { <br>
+ color:green; <br>
+ } <br>
+A:hover <br>
+ { <br>
+ color:red; <br>
+ text-decoration:underline; <br>
+ }
+</p>
+-----------------------------------------------------------------------------------
+<p>
+
+Temat: Zastosowanie :focus <br>
+A:focus <br>
+ { <br>
+ color:braun; <br>
+ }
+
+</p>
+
+
+
+
+</body>
+</html>

@@ -1,0 +1,41 @@
+p#p1_kami
+ {
+ color: purple;
+ font-size:10pt;
+ }
+ p#p2_kami
+ {
+ color: purple;
+ font-size:10pt;
+ }
+p#p1_kami:first-letter
+{
+color: Yellow;
+font-size: 25pt;
+}
+p#p2_kami:first-letter
+{
+  color: yellow;  
+  font-size: 25pt;
+}
+h1#h1_kami{
+color: red;
+
+}
+h1#h1_kami:first-letter{
+    color: yellow;
+}
+
+p#p3_kami{
+    color: blue;
+    font-size:10pt;
+    }
+
+p#p3_kami:first-letter{
+    font-size: 25pt;
+}
+p#p3_kami:first-line{
+    color: lime;
+    }
+    /*Kamiński Michał*/
+    

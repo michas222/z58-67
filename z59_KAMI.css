@@ -1,0 +1,28 @@
+a
+{
+font-size: 18pt;
+text-decoration: none;
+}
+a:link
+{
+color: blue;
+}
+a:visited
+{
+color: green;
+}
+a:hover
+{
+color: red;
+text-decoration: underline;
+}
+div{
+    color: purple;
+    font-size: 1cm;
+    
+    }
+    /*        
+text-decoration: none; nie zmienia wyglądu naszego tekstu
+text-decoration: underline; mówi nam o odzielnym wyglądzie linni w tekście
+Kamiński Michał
+    */
